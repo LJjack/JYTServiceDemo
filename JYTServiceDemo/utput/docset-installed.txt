@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/bihongbo/Library/Developer/Shared/Documentation/DocSets/com.service.jytservice.JYTService.docset
+Time: 2015-11-05 08:51:19 +0000

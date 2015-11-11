@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69BE2B043204DBA4C9090631 /* libPods-JYTServiceDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB342912DFF70A26410C987B /* libPods-JYTServiceDemo.a */; };
+		F779173B1BE1FA61002AD33B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F779173A1BE1FA61002AD33B /* main.m */; };
+		F779173E1BE1FA61002AD33B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F779173D1BE1FA61002AD33B /* AppDelegate.m */; };
+		F77917411BE1FA61002AD33B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77917401BE1FA61002AD33B /* ViewController.m */; };
+		F77917441BE1FA61002AD33B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77917421BE1FA61002AD33B /* Main.storyboard */; };
+		F77917461BE1FA61002AD33B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77917451BE1FA61002AD33B /* Assets.xcassets */; };
+		F77917491BE1FA61002AD33B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77917471BE1FA61002AD33B /* LaunchScreen.storyboard */; };
+		F77917541BE1FA61002AD33B /* JYTServiceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F77917531BE1FA61002AD33B /* JYTServiceDemoTests.m */; };
+		F779175F1BE1FA61002AD33B /* JYTServiceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F779175E1BE1FA61002AD33B /* JYTServiceDemoUITests.m */; };
+		F779186E1BE1FD9F002AD33B /* Param.m in Sources */ = {isa = PBXBuildFile; fileRef = F77917881BE1FD9F002AD33B /* Param.m */; };
+		F779186F1BE1FD9F002AD33B /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = F779178A1BE1FD9F002AD33B /* Result.m */; };
+		F77918701BE1FD9F002AD33B /* BaseCacheContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F779178E1BE1FD9F002AD33B /* BaseCacheContext.m */; };
+		F77918711BE1FD9F002AD33B /* BaseCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F77917901BE1FD9F002AD33B /* BaseCacheOperation.m */; };
+		F77918721BE1FD9F002AD33B /* BaseCacheOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F77917921BE1FD9F002AD33B /* BaseCacheOperationManager.m */; };
+		F77918731BE1FD9F002AD33B /* JsonCacheContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F77917941BE1FD9F002AD33B /* JsonCacheContext.m */; };
+		F77918741BE1FD9F002AD33B /* JsonDataBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F77917971BE1FD9F002AD33B /* JsonDataBaseTool.m */; };
+		F77918751BE1FD9F002AD33B /* DataAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F779179A1BE1FD9F002AD33B /* DataAdapter.m */; };
+		F77918761BE1FD9F002AD33B /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = F779179E1BE1FD9F002AD33B /* BaseService.m */; };
+		F77918771BE1FD9F002AD33B /* ServiceControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F77917A01BE1FD9F002AD33B /* ServiceControlManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F77917501BE1FA61002AD33B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F779172E1BE1FA61002AD33B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77917351BE1FA61002AD33B;
+			remoteInfo = JYTServiceDemo;
+		};
+		F779175B1BE1FA61002AD33B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F779172E1BE1FA61002AD33B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77917351BE1FA61002AD33B;
+			remoteInfo = JYTServiceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3374A38567D5BEF3C542DA77 /* Pods-JYTServiceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYTServiceDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYTServiceDemo/Pods-JYTServiceDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AB342912DFF70A26410C987B /* libPods-JYTServiceDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JYTServiceDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CE86B7FFF9B05B54817DB0 /* Pods-JYTServiceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYTServiceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYTServiceDemo/Pods-JYTServiceDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F77917361BE1FA61002AD33B /* JYTServiceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYTServiceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F779173A1BE1FA61002AD33B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F779173C1BE1FA61002AD33B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F779173D1BE1FA61002AD33B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F779173F1BE1FA61002AD33B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F77917401BE1FA61002AD33B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F77917431BE1FA61002AD33B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F77917451BE1FA61002AD33B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77917481BE1FA61002AD33B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F779174A1BE1FA61002AD33B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F779174F1BE1FA61002AD33B /* JYTServiceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYTServiceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77917531BE1FA61002AD33B /* JYTServiceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTServiceDemoTests.m; sourceTree = "<group>"; };
+		F77917551BE1FA61002AD33B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F779175A1BE1FA61002AD33B /* JYTServiceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYTServiceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F779175E1BE1FA61002AD33B /* JYTServiceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTServiceDemoUITests.m; sourceTree = "<group>"; };
+		F77917601BE1FA61002AD33B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77917871BE1FD9F002AD33B /* Param.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Param.h; sourceTree = "<group>"; };
+		F77917881BE1FD9F002AD33B /* Param.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Param.m; sourceTree = "<group>"; };
+		F77917891BE1FD9F002AD33B /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		F779178A1BE1FD9F002AD33B /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
+		F779178D1BE1FD9F002AD33B /* BaseCacheContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCacheContext.h; sourceTree = "<group>"; };
+		F779178E1BE1FD9F002AD33B /* BaseCacheContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCacheContext.m; sourceTree = "<group>"; };
+		F779178F1BE1FD9F002AD33B /* BaseCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCacheOperation.h; sourceTree = "<group>"; };
+		F77917901BE1FD9F002AD33B /* BaseCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCacheOperation.m; sourceTree = "<group>"; };
+		F77917911BE1FD9F002AD33B /* BaseCacheOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCacheOperationManager.h; sourceTree = "<group>"; };
+		F77917921BE1FD9F002AD33B /* BaseCacheOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCacheOperationManager.m; sourceTree = "<group>"; };
+		F77917931BE1FD9F002AD33B /* JsonCacheContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonCacheContext.h; sourceTree = "<group>"; };
+		F77917941BE1FD9F002AD33B /* JsonCacheContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonCacheContext.m; sourceTree = "<group>"; };
+		F77917961BE1FD9F002AD33B /* JsonDataBaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonDataBaseTool.h; sourceTree = "<group>"; };
+		F77917971BE1FD9F002AD33B /* JsonDataBaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonDataBaseTool.m; sourceTree = "<group>"; };
+		F77917991BE1FD9F002AD33B /* DataAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAdapter.h; sourceTree = "<group>"; };
+		F779179A1BE1FD9F002AD33B /* DataAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAdapter.m; sourceTree = "<group>"; };
+		F779179B1BE1FD9F002AD33B /* JYTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTService.h; sourceTree = "<group>"; };
+		F779179D1BE1FD9F002AD33B /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
+		F779179E1BE1FD9F002AD33B /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
+		F779179F1BE1FD9F002AD33B /* ServiceControlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceControlManager.h; sourceTree = "<group>"; };
+		F77917A01BE1FD9F002AD33B /* ServiceControlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceControlManager.m; sourceTree = "<group>"; };
+		F77918D61BE200E2002AD33B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77917331BE1FA61002AD33B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BE2B043204DBA4C9090631 /* libPods-JYTServiceDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F779174C1BE1FA61002AD33B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77917571BE1FA61002AD33B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		903A558A181DCDDB72C083A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB342912DFF70A26410C987B /* libPods-JYTServiceDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0B23361A7FFD36D58A67B39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3374A38567D5BEF3C542DA77 /* Pods-JYTServiceDemo.debug.xcconfig */,
+				E0CE86B7FFF9B05B54817DB0 /* Pods-JYTServiceDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F779172D1BE1FA61002AD33B = {
+			isa = PBXGroup;
+			children = (
+				F77917381BE1FA61002AD33B /* JYTServiceDemo */,
+				F77917521BE1FA61002AD33B /* JYTServiceDemoTests */,
+				F779175D1BE1FA61002AD33B /* JYTServiceDemoUITests */,
+				F77917371BE1FA61002AD33B /* Products */,
+				B0B23361A7FFD36D58A67B39 /* Pods */,
+				903A558A181DCDDB72C083A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F77917371BE1FA61002AD33B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77917361BE1FA61002AD33B /* JYTServiceDemo.app */,
+				F779174F1BE1FA61002AD33B /* JYTServiceDemoTests.xctest */,
+				F779175A1BE1FA61002AD33B /* JYTServiceDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77917381BE1FA61002AD33B /* JYTServiceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F77917851BE1FD9F002AD33B /* Service */,
+				F779173C1BE1FA61002AD33B /* AppDelegate.h */,
+				F779173D1BE1FA61002AD33B /* AppDelegate.m */,
+				F779173F1BE1FA61002AD33B /* ViewController.h */,
+				F77917401BE1FA61002AD33B /* ViewController.m */,
+				F77917421BE1FA61002AD33B /* Main.storyboard */,
+				F77917451BE1FA61002AD33B /* Assets.xcassets */,
+				F77917471BE1FA61002AD33B /* LaunchScreen.storyboard */,
+				F779174A1BE1FA61002AD33B /* Info.plist */,
+				F77917391BE1FA61002AD33B /* Supporting Files */,
+			);
+			path = JYTServiceDemo;
+			sourceTree = "<group>";
+		};
+		F77917391BE1FA61002AD33B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F779173A1BE1FA61002AD33B /* main.m */,
+				F77918D61BE200E2002AD33B /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F77917521BE1FA61002AD33B /* JYTServiceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F77917531BE1FA61002AD33B /* JYTServiceDemoTests.m */,
+				F77917551BE1FA61002AD33B /* Info.plist */,
+			);
+			path = JYTServiceDemoTests;
+			sourceTree = "<group>";
+		};
+		F779175D1BE1FA61002AD33B /* JYTServiceDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F779175E1BE1FA61002AD33B /* JYTServiceDemoUITests.m */,
+				F77917601BE1FA61002AD33B /* Info.plist */,
+			);
+			path = JYTServiceDemoUITests;
+			sourceTree = "<group>";
+		};
+		F77917851BE1FD9F002AD33B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F779179B1BE1FD9F002AD33B /* JYTService.h */,
+				F77917861BE1FD9F002AD33B /* BaseDTO */,
+				F779178B1BE1FD9F002AD33B /* Cache */,
+				F77917981BE1FD9F002AD33B /* DataAdapter */,
+				F779179C1BE1FD9F002AD33B /* PublicService */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F77917861BE1FD9F002AD33B /* BaseDTO */ = {
+			isa = PBXGroup;
+			children = (
+				F77917871BE1FD9F002AD33B /* Param.h */,
+				F77917881BE1FD9F002AD33B /* Param.m */,
+				F77917891BE1FD9F002AD33B /* Result.h */,
+				F779178A1BE1FD9F002AD33B /* Result.m */,
+			);
+			path = BaseDTO;
+			sourceTree = "<group>";
+		};
+		F779178B1BE1FD9F002AD33B /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				F779178C1BE1FD9F002AD33B /* BaseCacheContext */,
+				F77917951BE1FD9F002AD33B /* DataBaseTool */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		F779178C1BE1FD9F002AD33B /* BaseCacheContext */ = {
+			isa = PBXGroup;
+			children = (
+				F779178D1BE1FD9F002AD33B /* BaseCacheContext.h */,
+				F779178E1BE1FD9F002AD33B /* BaseCacheContext.m */,
+				F779178F1BE1FD9F002AD33B /* BaseCacheOperation.h */,
+				F77917901BE1FD9F002AD33B /* BaseCacheOperation.m */,
+				F77917911BE1FD9F002AD33B /* BaseCacheOperationManager.h */,
+				F77917921BE1FD9F002AD33B /* BaseCacheOperationManager.m */,
+				F77917931BE1FD9F002AD33B /* JsonCacheContext.h */,
+				F77917941BE1FD9F002AD33B /* JsonCacheContext.m */,
+			);
+			path = BaseCacheContext;
+			sourceTree = "<group>";
+		};
+		F77917951BE1FD9F002AD33B /* DataBaseTool */ = {
+			isa = PBXGroup;
+			children = (
+				F77917961BE1FD9F002AD33B /* JsonDataBaseTool.h */,
+				F77917971BE1FD9F002AD33B /* JsonDataBaseTool.m */,
+			);
+			path = DataBaseTool;
+			sourceTree = "<group>";
+		};
+		F77917981BE1FD9F002AD33B /* DataAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				F77917991BE1FD9F002AD33B /* DataAdapter.h */,
+				F779179A1BE1FD9F002AD33B /* DataAdapter.m */,
+			);
+			path = DataAdapter;
+			sourceTree = "<group>";
+		};
+		F779179C1BE1FD9F002AD33B /* PublicService */ = {
+			isa = PBXGroup;
+			children = (
+				F779179D1BE1FD9F002AD33B /* BaseService.h */,
+				F779179E1BE1FD9F002AD33B /* BaseService.m */,
+				F779179F1BE1FD9F002AD33B /* ServiceControlManager.h */,
+				F77917A01BE1FD9F002AD33B /* ServiceControlManager.m */,
+			);
+			path = PublicService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77917351BE1FA61002AD33B /* JYTServiceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77917631BE1FA61002AD33B /* Build configuration list for PBXNativeTarget "JYTServiceDemo" */;
+			buildPhases = (
+				F6E00F979877C332B9046B91 /* Check Pods Manifest.lock */,
+				F77917321BE1FA61002AD33B /* Sources */,
+				F77917331BE1FA61002AD33B /* Frameworks */,
+				F77917341BE1FA61002AD33B /* Resources */,
+				1E59F33DFDC971C8704AD10E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYTServiceDemo;
+			productName = JYTServiceDemo;
+			productReference = F77917361BE1FA61002AD33B /* JYTServiceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F779174E1BE1FA61002AD33B /* JYTServiceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77917661BE1FA61002AD33B /* Build configuration list for PBXNativeTarget "JYTServiceDemoTests" */;
+			buildPhases = (
+				F779174B1BE1FA61002AD33B /* Sources */,
+				F779174C1BE1FA61002AD33B /* Frameworks */,
+				F779174D1BE1FA61002AD33B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77917511BE1FA61002AD33B /* PBXTargetDependency */,
+			);
+			name = JYTServiceDemoTests;
+			productName = JYTServiceDemoTests;
+			productReference = F779174F1BE1FA61002AD33B /* JYTServiceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F77917591BE1FA61002AD33B /* JYTServiceDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77917691BE1FA61002AD33B /* Build configuration list for PBXNativeTarget "JYTServiceDemoUITests" */;
+			buildPhases = (
+				F77917561BE1FA61002AD33B /* Sources */,
+				F77917571BE1FA61002AD33B /* Frameworks */,
+				F77917581BE1FA61002AD33B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F779175C1BE1FA61002AD33B /* PBXTargetDependency */,
+			);
+			name = JYTServiceDemoUITests;
+			productName = JYTServiceDemoUITests;
+			productReference = F779175A1BE1FA61002AD33B /* JYTServiceDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F779172E1BE1FA61002AD33B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = bihongbo;
+				TargetAttributes = {
+					F77917351BE1FA61002AD33B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					F779174E1BE1FA61002AD33B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F77917351BE1FA61002AD33B;
+					};
+					F77917591BE1FA61002AD33B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F77917351BE1FA61002AD33B;
+					};
+				};
+			};
+			buildConfigurationList = F77917311BE1FA61002AD33B /* Build configuration list for PBXProject "JYTServiceDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F779172D1BE1FA61002AD33B;
+			productRefGroup = F77917371BE1FA61002AD33B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77917351BE1FA61002AD33B /* JYTServiceDemo */,
+				F779174E1BE1FA61002AD33B /* JYTServiceDemoTests */,
+				F77917591BE1FA61002AD33B /* JYTServiceDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77917341BE1FA61002AD33B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77917491BE1FA61002AD33B /* LaunchScreen.storyboard in Resources */,
+				F77917461BE1FA61002AD33B /* Assets.xcassets in Resources */,
+				F77917441BE1FA61002AD33B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F779174D1BE1FA61002AD33B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77917581BE1FA61002AD33B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E59F33DFDC971C8704AD10E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYTServiceDemo/Pods-JYTServiceDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E00F979877C332B9046B91 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77917321BE1FA61002AD33B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77918721BE1FD9F002AD33B /* BaseCacheOperationManager.m in Sources */,
+				F77917411BE1FA61002AD33B /* ViewController.m in Sources */,
+				F77918761BE1FD9F002AD33B /* BaseService.m in Sources */,
+				F77918741BE1FD9F002AD33B /* JsonDataBaseTool.m in Sources */,
+				F77918751BE1FD9F002AD33B /* DataAdapter.m in Sources */,
+				F77918771BE1FD9F002AD33B /* ServiceControlManager.m in Sources */,
+				F77918711BE1FD9F002AD33B /* BaseCacheOperation.m in Sources */,
+				F779186E1BE1FD9F002AD33B /* Param.m in Sources */,
+				F77918731BE1FD9F002AD33B /* JsonCacheContext.m in Sources */,
+				F779186F1BE1FD9F002AD33B /* Result.m in Sources */,
+				F779173E1BE1FA61002AD33B /* AppDelegate.m in Sources */,
+				F779173B1BE1FA61002AD33B /* main.m in Sources */,
+				F77918701BE1FD9F002AD33B /* BaseCacheContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F779174B1BE1FA61002AD33B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77917541BE1FA61002AD33B /* JYTServiceDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77917561BE1FA61002AD33B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F779175F1BE1FA61002AD33B /* JYTServiceDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F77917511BE1FA61002AD33B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77917351BE1FA61002AD33B /* JYTServiceDemo */;
+			targetProxy = F77917501BE1FA61002AD33B /* PBXContainerItemProxy */;
+		};
+		F779175C1BE1FA61002AD33B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77917351BE1FA61002AD33B /* JYTServiceDemo */;
+			targetProxy = F779175B1BE1FA61002AD33B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F77917421BE1FA61002AD33B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77917431BE1FA61002AD33B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F77917471BE1FA61002AD33B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77917481BE1FA61002AD33B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F77917611BE1FA61002AD33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F77917621BE1FA61002AD33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77917641BE1FA61002AD33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3374A38567D5BEF3C542DA77 /* Pods-JYTServiceDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREFIX_HEADER = JYTServiceDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = JYTServiceDemo/Info.plist;
+				INFOPLIST_PREFIX_HEADER = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.JYTServiceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F77917651BE1FA61002AD33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0CE86B7FFF9B05B54817DB0 /* Pods-JYTServiceDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREFIX_HEADER = JYTServiceDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = JYTServiceDemo/Info.plist;
+				INFOPLIST_PREFIX_HEADER = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.JYTServiceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F77917671BE1FA61002AD33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYTServiceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.JYTServiceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYTServiceDemo.app/JYTServiceDemo";
+			};
+			name = Debug;
+		};
+		F77917681BE1FA61002AD33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYTServiceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.JYTServiceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYTServiceDemo.app/JYTServiceDemo";
+			};
+			name = Release;
+		};
+		F779176A1BE1FA61002AD33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYTServiceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.JYTServiceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYTServiceDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F779176B1BE1FA61002AD33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYTServiceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.JYTServiceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYTServiceDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77917311BE1FA61002AD33B /* Build configuration list for PBXProject "JYTServiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77917611BE1FA61002AD33B /* Debug */,
+				F77917621BE1FA61002AD33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77917631BE1FA61002AD33B /* Build configuration list for PBXNativeTarget "JYTServiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77917641BE1FA61002AD33B /* Debug */,
+				F77917651BE1FA61002AD33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77917661BE1FA61002AD33B /* Build configuration list for PBXNativeTarget "JYTServiceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77917671BE1FA61002AD33B /* Debug */,
+				F77917681BE1FA61002AD33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77917691BE1FA61002AD33B /* Build configuration list for PBXNativeTarget "JYTServiceDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F779176A1BE1FA61002AD33B /* Debug */,
+				F779176B1BE1FA61002AD33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F779172E1BE1FA61002AD33B /* Project object */;
+}

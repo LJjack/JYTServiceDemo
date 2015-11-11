@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  JYTServiceDemo
+//
+//  Created by bihongbo on 15/10/29.
+//  Copyright © 2015年 bihongbo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+
+#import "JYTService.h"
+
+#import "MJExtension.h"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
